@@ -21,6 +21,17 @@ Once you've done that, **wsimport** should have generated for you:
 
 and a few other things like JAXB beans, etc. Now we can begin.
 
+#### Downloading
+
+The latest release is avalable at
+[Maven Central](http://search.maven.org/#artifactdetails|ph.samson.ws|seppugu|0.1|jar)
+
+    <dependency>
+        <groupId>ph.samson.ws</groupId>
+        <artifactId>seppugu</artifactId>
+        <version>0.1</version>
+    </dependency>
+
 ### Usage
 
 The main purpose of *SePPuGu* is to avoid directly using **Service** instances
